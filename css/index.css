@@ -57,3 +57,20 @@
 .banner .info a:hover{
     background: #212A3E;
 }
+.card{
+    height: 10rem;
+    background-color: #F1F6F9;
+
+}
+
+/*  */
+#submit-button{
+    background: #212A3E;
+}
+#submit-button:hover{
+    background-color: #394867;
+}
+.create{
+    color:#212A3E;
+}
+
