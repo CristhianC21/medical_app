@@ -1,0 +1,26 @@
+.banner{
+    background-color: aliceblue;
+    color: red;
+}
+#body{
+    display: flex;
+    align-content: space-around;
+}
+form{
+    padding:3% 0;
+    margin: 40px auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    
+    background-color: aliceblue;
+    border-radius: 10px;
+    min-height: 45vh;
+    min-width: 360px;
+}
+.textInput{
+    width: 80%;
+    margin: 0 auto;
+    min-width: 300px;
+}

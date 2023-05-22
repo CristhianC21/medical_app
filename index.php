@@ -14,8 +14,23 @@
   <title>MEDICAL SYSTEM</title>
 </head>
 
-<body id=body>
-  <?php include("navbar.php") ?>
+<body id="body">
+  <?php 
+    include("navbar.php");
+    
+    session_start();
+
+    $_SESSION['user']="";  
+    $_SESSION['userType']="";  
+
+    include("connection.php");
+
+    if($_POST){
+      
+    }
+  
+  
+  ?>
   <div class="col-md-8 offset-md-2 info">
     <h1 class="text-center">MEDIAP</h1>
     <p class="text-center">The new way to make your appointment 
