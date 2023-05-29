@@ -1,11 +1,3 @@
-.banner{
-    background-color: aliceblue;
-    color: red;
-}
-#body{
-    display: flex;
-    align-content: space-around;
-}
 form{
     padding:3% 0;
     margin: 40px auto;
